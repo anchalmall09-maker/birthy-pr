@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Love ❤️</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI', sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#ff758c,#ff7eb3);
+}
+
+/* PAGES */
+.page{
+  min-height:100vh;
+  display:none;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.page:target{
+  display:flex;
+}
+
+.page:first-of-type{
+  display:flex;
+}
+
+/* CARD */
+.card{
+  background:white;
+  max-width:420px;
+  width:100%;
+  border-radius:20px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,0.25);
+  animation:popup 0.6s ease;
+}
+
+@keyframes popup{
+  from{ transform:scale(0.7); opacity:0; }
+  to{ transform:scale(1); opacity:1; }
+}
+
+h1{
+  color:#ff4b6e;
+  margin-bottom:15px;
+}
+
+p{
+  color:#444;
+  font-size:16px;
+  line-height:1.6;
+  margin-bottom:15px;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 26px;
+  background:#ff4b6e;
+  color:white;
+  text-decoration:none;
+  border-radius:25px;
+  font-size:15px;
+}
+
+/* GIF POP */
+.dance-gif{
+  width:180px;
+  margin:15px auto;
+  display:block;
+  animation:pop 0.6s ease-out;
+}
+
+@keyframes pop{
+  0%{ transform:scale(0); opacity:0; }
+  80%{ transform:scale(1.1); }
+  100%{ transform:scale(1); opacity:1; }
+}
+
+/* PHOTOS */
+.photos{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  margin-top:15px;
+}
+
+img, video{
+  width:100%;
+  border-radius:15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div id="p1" class="page">
+  <div class="card">
+    <h1>Hey My Love 💙</h1>
+    <p>something special for you pranjal.<br>Click YES 💕</p>
+    <a href="#p2" class="btn">YES ❤️</a>
+  </div>
+</div>
+
+<!-- PAGE 2 -->
+<div id="p2" class="page">
+  <div class="card">
+    <h1>Happy Birthday my 🐥🎂</h1>
+    <img src="gif/pic.gif" class="dance-gif">
+    <audio controls autoplay>
+      <source src="audio/birthday.mp3" type="audio/mpeg">
+    </audio>
+    <a href="#p3" class="btn">Next →</a>
+  </div>
+</div>
+
+<!-- PAGE 3 -->
+<div id="p3" class="page">
+  <div class="card">
+    <h1> u r the best PP🎥</h1>
+    <video controls>
+      <source src="video/us.mp4" type="video/mp4">
+    </video>
+    <p>Some memories don’t need words.</p>
+    <a href="#p4" class="btn">Next →</a>
+  </div>
+</div>
+
+<!-- PAGE 4 -->
+<div id="p4" class="page">
+  <div class="card">
+    <h1>I LOVE YOU MY MOTU MAN✨</h1>
+    <p>
+You don’t change the world around me,<br>
+you change how it feels.<br>
+Things don’t get louder with you,<br>
+they get clearer, steadier, real.<br><br>
+
+With you, happiness doesn’t ask for reasons,<br>
+and silence never feels unfinished.<br>
+Even ordinary moments seem to know where they belong.<br><br>
+
+You have this quiet way of making space feel safe,<br>
+of turning time softer,<br>
+of reminding me that ease can also be love.<br><br>
+
+Happiest Birthday my 🎂🍰❤️
+    </p>
+
+    <div class="photos">
+      <img src="images/pic1.jpg">
+      <img src="images/pic2.jpg">
+      <img src="images/pic3.jpg">
+      <img src="images/pic4.jpg">
+    </div>
+
+    <a href="#p5" class="btn">Next →</a>
+  </div>
+</div>
+
+<!-- PAGE 5 (NEW: SECRET CODE) -->
+<div id="p5" class="page">
+  <div class="card">
+    <h1>One Last Thing and if u want to open it then u need to think about the code 
+HINT is Two of these numbers don’t belong to one person.
+They return every year unchanged,
+on the days two lives began separately
+
+The other two don’t repeat as often
+They mark the moment two paths stopped being parallel.
+
+Arrange them the way memory does:
+origins first, union after🤍</h1>
+
+    <p>
+      This part is locked.<br>
+      Only you can open it.
+    </p>
+
+    <input id="code" type="password" placeholder="Enter the secret code"
+      style="padding:10px;border-radius:20px;border:1px solid #ccc;width:80%;text-align:center;">
+
+    <br><br>
+
+    <button class="btn" onclick="unlock()">Unlock 💫</button>
+
+    <p id="secretText" style="display:none; margin-top:20px;">
+       AREEEEEEEEEEEEEE SHITTT tm yha tk pahuch gye 😒😒 ok ab samjh gyi that u r a bit smart but less then mee samjheeee . sooo Again happiest birthday chuzze i love you so muchh may you achieve everything in ur life and from the first day i am always proud of you and u know u r doing great in life so u do not have to worry about it just be positive towards ur life and towards ur work also and u know i love you soo muchh u r the best person who always motivates me and love me i love u soo muchhh and happiest birthday my pranjalllllwaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa i love u 
+ so You were never just a moment in my life.<br>
+      You became the calm in my chaos,<br>
+      the place my heart learned to rest.<br><br>
+
+      Loving you feels like coming home.<br>
+      Always has ❤️🐥Always will 
+as you know how muchh special your birthday is for me  n now u turned 22 this year yeeeeee partyyyyyy i love you motu man  i love you soo sooo sooo sooo soo sooo sooo soo sooooo muchhhhhhhhhhhhh. ❤️
+    </p>
+
+    <a href="#p1" class="btn" style="margin-top:20px;">Replay ↺</a>
+  </div>
+</div>
+
+<!-- SCRIPT (NEW THING ONLY) -->
+<script>
+function unlock(){
+  const input = document.getElementById("code").value;
+  if(input === "2316"){   // 🔐 change code here if you want
+    document.getElementById("secretText").style.display = "block";
+  } else {
+    alert("That’s not the right code 💔");
+  }
+}
+</script>
+
+</body>
+</html>
